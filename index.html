@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundown Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="fixed-image" class="h-[30vw] w-[25vw] bg-cover bg-center z-[900] fixed rounded-3xl left-[50%] top-[18%]">
+    </div>
+    <div id="main" class="z-[100] relative">
+
+        <div id="full-scr" class="h-[100vh] w-full fixed bg-[#00000070] z-[991] top-[-100%]">
+            <div id="scr-div1" class="h-[50%] bg-[#EFEAE3] w-full rounded-3xl"></div>
+        </div>
+
+        <!-- page1 -->
+        <div id="page1" class="min-h-[100vh] w-full bg-[#EFEAE3] relative px-[2vw]">
+            <nav class="w-full py-[2.5vw] flex justify-between items-center relative z-[10000] bg-[#EFEAE3]">
+                <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg"
+                    alt="">
+                <div class="nav-links flex gap-[1vw]">
+                    <h4
+                        class="relative border border-gray-400 px-[20px] py-[10px] rounded-full  overflow-hidden font-bold">
+                        <a href="" class="relative z-[9]">Work</a>
+                    </h4>
+                    <h4
+                        class="relative border border-gray-400 px-[20px] py-[10px] rounded-full  overflow-hidden font-bold">
+                        <a href="" class="relative z-[9]">Studio</a>
+                    </h4>
+                    <h4
+                        class="relative border border-gray-400 px-[20px] py-[10px] rounded-full  overflow-hidden font-bold">
+                        <a href="" class="relative z-[9]">Contact</a>
+                    </h4>
+                </div>
+                <div id="menu"
+                    class=" border border-gray-400 px-[4vw] py-[2vw] rounded-full  overflow-hidden font-extralight ">
+                    Menu
+                </div>
+            </nav>
+
+            <div class="border-gray-400 border-b flex justify-between items-end page1-part2 ">
+                <div class="left">
+                    <h3 class="w-[28vw] text-[2vw] font-bold leading-tight text-start relative z-[99]">Sundown is a
+                        multi-disciplinary studio
+                        focused on creating unique, end-to-end experiences and
+                        environments.</h3>
+                </div>
+                <div class="right">
+                    <h1 class="text-[10vw] leading-[8.2vw] text-end">SPACES <br> THAT <br> INSPIRE</h1>
+                </div>
+            </div>
+
+            <div class="h-[35vw] w-[55vw] absolute right-0 top-[85vh] round-shape ">
+                <div class="h-full w-full bg-[#FE380D] absolute"></div>
+                <div class="h-[30vw] w-[30vw] absolute"></div>
+            </div>
+            <div class="video-container">
+
+                <video autoplay loop muted src="./assets/video.mp4" class="rounded-3xl mt-[5vw] relative"></video>
+            </div>
+        </div>
+
+        <!-- page2 -->
+        <div id="page2" class="min-h-[100vh] w-full bg-[#EFEAE3] relative py-[7vw]">
+            <div class="moving-text flex overflow-x-auto">
+                <div class="con flex items-center">
+                    <h1 class="uppercase text-[9vw]">experiences</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">content</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">environments</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                </div>
+                <div class="con flex items-center">
+                    <h1 class="uppercase text-[9vw]">experiences</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">content</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">environments</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                </div>
+                <div class="con flex items-center">
+                    <h1 class="uppercase text-[9vw]">experiences</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">content</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                    <h1 class="uppercase text-[9vw]">environments</h1>
+                    <div class="gola h-[5vw] w-[5vw] bg-[#FE380D] rounded-full mx-[2vw]"></div>
+                </div>
+            </div>
+
+            <div class="h-[90vh] w-full flex items-center justify-between px-[6vw] py-[4vw] page2-part2">
+                <h1 class="text-[4.2vw] leading-none w-[63%] z-[9]">
+                    We are a group of design-driven, goal-focused creators, producers, and designers who believe that
+                    the details make all the difference.
+                </h1>
+                <div class="w-[22%] flex flex-col h-full justify-end mt-[3vw] z-[9] page2-p">
+                    <img src="./assets/img1.jpg" alt="" class="rounded-2xl mb-[3vw] ">
+                    <p class="font-extralight leading-tight">We love to create, we love to solve, we love to
+                        collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you
+                        through every step of the process and know that relationships are the most important things we
+                        build.</p>
+                </div>
+                <div class="w-[32vw] h-[32vw] absolute top-[56%] left-[27%] round-shape2 ">
+                    <div class="h-full w-full bg-[#ff9831] absolute rounded-full"></div>
+                    <div class="h-full w-full absolute rounded-full"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- page3 -->
+        <div id="page3" class="min-h-[100vh] w-full bg-[#EFEAE3] ">
+            <div class="py-[3vw] px-[2vw] flex items-center gap-2">
+                <div class="h-[8px] w-[8px] rounded-full bg-[#FE330A]"></div>
+                <h6 class="font-extralight">FEATURED PROJECTS</h6>
+            </div>
+            <div id="elem-container">
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage1.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">Play New Kidvision</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">NIKE</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage2.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">SOHO NYC</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">ARC'TERYX</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage3.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">Makers Studio HOI</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">NIKE</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Experiencal</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage4.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">SOHO 2023</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">CONVERSE</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage5.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">NYFW Popup</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">AFTERPAY</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Experiencal</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage6.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">Air Force 1 2021</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">NIKE</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="elem h-[8vw] w-full relative flex items-center justify-between px-[2vw] border-b border-gray-300 overflow-hidden"
+                    data-image="./assets/fimage7.jpg">
+                    <div class="overlay bg-[#FF9831] h-full w-full absolute left-0 top-[-100%]"></div>
+                    <h1 class="text-[3vw] z-[9]">50th Anniversary</h1>
+                    <div class="z-[9] flex flex-col items-end">
+                        <h6 class="font-extralight leading-none">NIKE</h6>
+                        <p class="text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mob-elements" class="px-[4vw]">
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">Play New Kidvision</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">NIKE</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">SOHO NYC</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">ARC'TERYX</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">Makers Studio HOI</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">NIKE</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Experiencal</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">SOHO 2023</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">CONVERSE</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">NYFW Popup</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">AFTERPAY</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Experiencal</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">Air Force 1 2021</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">NIKE</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+                <div class="w-full mt-[8vw] relative flex flex-col justify-between overflow-hidden">
+                    <div
+                        class="mob-elem bg-center bg-cover h-[50vh] w-full border-black left-0 top-[-100%] rounded-2xl">
+                    </div>
+                    <h1 class="text-[9vw] z-[9]">50th Anniversary</h1>
+                    <div class="z-[9] flex flex-col">
+                        <h6 class="text-[6vw] font-extralight leading-none">NIKE</h6>
+                        <p class="text-[4vw] text-[rgb(173_167_167)] font-extralight">Environment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-[3vw] px-[2vw] flex items-center">
+                <h4 class="relative border border-gray-400 px-[20px] py-[10px] rounded-full  overflow-hidden font-bold">
+                    <a href="" class="relative z-[9]">All Projects ></a>
+                </h4>
+            </div>
+        </div>
+
+        <!-- page4 -->
+        <div id="page4" class="min-h-[100vh] w-full bg-[#EFEAE3] p-[2vw] border-none">
+            <div id="black-box" class=" h-[110vh] bg-black rounded-3xl flex justify-between">
+                <div class="tab-section  h-full w-[45%]  flex flex-col justify-center px-[9vw]">
+                    <div class="tabs pl-[2vw] border-l text-[rgb(80_74_69)]">
+                        <h1 class="tab relative text-[4.5vw] leading-tight" data-image="./assets/blackbox1.jpg">Design
+                        </h1>
+                        <h1 class="tab relative text-[4.5vw] leading-tight" data-image="./assets/blackbox2.jpg">Project
+                        </h1>
+                        <h1 class="tab relative text-[4.5vw] leading-tight" data-image="./assets/blackbox3.jpg">
+                            Execution</h1>
+                    </div>
+                    <div id="desc" class="text-white my-[1vw] font-extralight leading-tight">
+                        Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings.
+                    </div>
+
+
+                </div>
+                <div id="image-section" class="image-section w-[55%]  h-full rounded-3xl">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="page5" class="h-[90vh] w-full bg-[#EFEAE3] pl-[5vw]">
+            <div class=" py-[5vw] flex items-center gap-2">
+                <div class="h-[8px] w-[8px] rounded-full bg-[#FE330A]"></div>
+                <h6 class="font-extralight">WHO WE WORK WITH</h6>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/logo1.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Retained Production support
+                            across retail and events in NY, CHI, LA. Creative Design, Design Management,
+                            Production/Project Management, and execution of work from concept to installation across the
+                            Country.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/logo2.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Creative Concepting, Design,
+                            Design Management, Project Management, and execution of work from concept to installation
+                            across the Country. Cross functional communication and management of third party partners.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/logo3.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Production and design along
+                            with install oversight and execution support for the SoHo store opening on Broadway St, New
+                            York. Also working on creative and production work for a new store opening in Glendale,
+                            California.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/logo4.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Design and Production partner
+                            for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in
+                            Women’s, Men’s and Kid’s zones. Thirty-five (35) additional smaller take-downs in Nordstrom
+                            stores across the US. Concept design for Holiday boot customization events in stores across
+                            winter 2022.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/logo5.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Creative, Design, and
+                            Production Partner for 2023 CES. Scope Included creation of Branding Identity, Assets, and
+                            Digital Content, Design, Production design, Production oversight and Installation of client
+                            activations for IBM, Delta, Instacart, and more.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/logo6.svg" alt="" class="w-[55%]">
+                        <p class=" text-[#2a2929f4] leading-tight text-left">Creative, Design, and
+                            Production Partner for 2022 NY Fashion Week Pop-Up space. In Partnership with B-Reel scope
+                            including creation of Final Design, Design Assets, 3D Renders, Production design,
+                            Production/Partner oversight and creation of a two (2) story pop-up for Afterpay’s clients
+                            such as Crocs, JD Sports, Container Store, & Revolve.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="page6" class="min-h-[100vh] w-full "></div>
+
+    </div>
+
+    <div id="footer" class="min-h-[100vh] w-full fixed bottom-0 px-[1.5vw] py-[1.1vw] bg-black text-white flex flex-col justify-end">
+        
+        <div class="footer-shape1 w-[90%] h-[90%] absolute bg-[#fe330a] top-[-50%] left-[-26%]"></div>
+        <div class="footer-shape2 w-[70%] h-[90%] absolute bg-[#fe330a] top-[-26%] right-[-30%]"></div>
+        <div class="footer-part1 flex justify-between items-center px-[4vw] py-[8vw] z-[9]">
+            <div>
+                <h2 class="text-[40px] leading-tight">Work</h2>
+                <h2 class="text-[40px] leading-tight">Studio</h2>
+                <h2 class="text-[40px] leading-tight">Contact</h2>
+            </div>
+            <div class="w-[30%] email">
+                <p class="text-[20px] font-extralight leading-tight mb-[2vw]">Get industry insights and creative
+                    inspiration straight to your inbox</p>
+                <div class="border-b border-[#d3cdc1df] text-[15px] font-extralight text-[#d3cdc1df] ">Email Address</div>
+            </div>
+        </div>
+        <div class="footer-part2 z-[9]">
+            <div class="border-b text-[23.3vw] text-center leading-none">Sundown</div>
+            <div class="flex justify-between py-[1vw]">
+                <h6 class="text-[15px] font-extralight ">Copyright © Sundown Studio</h6>
+                <h6 class="text-[15px] font-extralight ">Brooklyn, NY</h6>
+                <h6 class="text-[15px] font-extralight ">Instagram</h6>
+                <h6 class="text-[15px] font-extralight ">Linkedin</h6>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
